@@ -3,6 +3,8 @@ Jump With WebVR
 
 JumpVR is a module for Three.js to sense jumping thanks to Device Acceleration (i.e: ([WC3]))
 
+I tested it with just CardBoard.
+
 # Getting Started
 
 ```html
