@@ -7,7 +7,7 @@ I tested it with just CardBoard.
 ![Google CardBoard](https://developers.google.com/cardboard/images/one-cardboard.png)
 
 # Demo
-1. [Jump Count Demo]
+1. [Jump Count Example] -> [Jump Count Demo]
 
 
 # Getting Started
@@ -61,7 +61,9 @@ ahmetak@gibir.com.tr
 [My Mechatronic Blog]</p>
 [GIBIR]
 
+[Jump Count Example]: <https://github.com/akahmet/JumpVR/tree/master/Example/Jump-Count> 
 [Jump Count Demo]: <https://cdn.rawgit.com/akahmet/JumpVR/master/Example/Jump-Count/index.html> 
+
 [WC3]: <http://www.w3.org/TR/orientation-event/>
 [GIBIR]: <http://gibir.com.tr>
 [My Mechatronic Blog]: <http://blog.mechatronian.com>
