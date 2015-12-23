@@ -40,8 +40,8 @@ THREE.JumpVR(Event,Options);
 THREE.JumpVR(function(e){},{max: 3, min: -3/*g*/, TimeOut: 500/* ms */, minTime: 10/* ms */ });
 ```
 
-**TO DO**
-*add demo
+#TO DO
+*add demo</p>
 *I'll try to make more stabile
 
 **Contact**</p>
