@@ -17,7 +17,9 @@ Attach it to html after Three.js
 
 var jump = new THREE.JumpVR(function(e){
   //e.result if user jump it will return true
-  //e.count count of jumping
+  //e.state.count count of jumping
+  //e.state.max global max acceleration
+  //e.state.min global min acceleration
   //e.event is devicemotion event
   if (e.result){
     console.log(e);
