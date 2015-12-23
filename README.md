@@ -34,6 +34,11 @@ THREE.JumpVR(Event,Options);
 {max: 3, min: -3/*g*/, TimeOut: 500/* ms */, minTime: 10/* ms */ }
 ```
 
+```js
+THREE.JumpVR(function(e){},{max: 3, min: -3/*g*/, TimeOut: 500/* ms */, minTime: 10/* ms */ });
+```
+
+
 **Contact**</p>
 you can ask any question</p>
 Ahmet Ak
