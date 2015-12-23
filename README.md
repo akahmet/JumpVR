@@ -41,7 +41,7 @@ ahmetak@gibir.com.tr
 
 **Warning: if you are not at the World, it cannot work :)**
 
-[My Mechatronic Blog]
+[My Mechatronic Blog]</p>
 [GIBIR]
 
 [WC3]: <http://www.w3.org/TR/orientation-event/>
