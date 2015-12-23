@@ -1,7 +1,7 @@
 # JumpVR
 Jump With WebVR
 
-JumpVR is a module for Three.js to sense jumping thanks to Device Acceleration (i.e: (http://www.w3.org/TR/orientation-event/))
+JumpVR is a module for Three.js to sense jumping thanks to Device Acceleration (i.e: ([WC3]))
 
 # Getting Started
 
@@ -41,5 +41,9 @@ ahmetak@gibir.com.tr
 
 **Warning: if you are not at the World, it cannot work :)**
 
-http://blog.mechatronian.com
-http://gibir.com.tr
+[My Mechatronic Blog]
+[GIBIR]
+
+[WC3]: <http://www.w3.org/TR/orientation-event/>
+[GIBIR]: <http://gibir.com.tr>
+[My Mechatronic Blog]: <http://blog.mechatronian.com>
