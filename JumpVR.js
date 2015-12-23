@@ -18,7 +18,7 @@
 	THREE.JumpVR = function(event,options) {
 		this.options = this.options || {};
 		this.options.max |= 8/*g*/;
-		this.options.min |= -7/*g*/;
+		this.options.min |= -11/*g*/;
 		this.options.TimeOut |= 500/* ms */;
 		this.options.minTime |= 10/* ms */;
 		
@@ -37,13 +37,17 @@
 			this.orient={x: e.gamma, y: e.alpha, z: e.beta }
 		}.bind(this);
 		
+		this.dTAD=function(Deg){//degrees to absolute radians
+			return Math.abs(Deg) * Math.PI / 180;
+		};
+		
 		this.onMotion = function (e){
 			var Ax=e.acceleration.x;
 			var Ay=e.acceleration.y;
 			var Az=e.acceleration.z;
 			
 			var result = false;
-			var calc=Ax*Math.sin(Math.abs(this.orient.x)) + Az * Math.cos(Math.abs(this.orient.x)) + Ay * Math.sin(this.orient.z);
+			var calc=Ax*Math.sin(this.dTAD(this.orient.x)) + Az * Math.cos(this.dTAD(this.orient.x)) + Ay * Math.sin(this.dTAD(this.orient.z));
 			
 			if (calc > this.state.max){this.state.max=calc;}
 			if (calc < this.state.min){this.state.min=calc;}
