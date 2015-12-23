@@ -21,14 +21,15 @@
 		this.count = 0;
 		this.TimeOut = 0;
 		this.Up = false; //
-		
+		this.orient = {x: 90, y:0, z:0 };
 		this.Millis=function() {
 			return new Date().getTime();
 		};
 		
 		this.onOrientation = function (e){
 			console.log(e);
-		}
+			this.orient={x: e.gamma, y: e.alpha, z: e.beta }
+		}.bind(this);
 		
 		this.onMotion = function (e){
 			var Ax=e.acceleration.x;
@@ -36,7 +37,7 @@
 			var Az=e.acceleration.z;
 			
 			var result = false;
-			var calc=Ax*Math.sin() + Az * Math.cos() + Ay * Math.cos();
+			var calc=Ax*Math.sin(Math.abs(this.orient.x)) + Az * Math.cos(Math.abs(this.orient.x)) + Ay * Math.sin(this.orient.z);
 			
 			if (calc > this.options.max){
 				this.Up = true;
@@ -59,7 +60,7 @@
 		}.bind(this);
 		
 		window.addEventListener('devicemotion', this.onMotion, false);
-		//window.addEventListener('deviceorientation', this.onOrientation, false);
+		window.addEventListener('deviceorientation', this.onOrientation, false);
 
 	}
 })();
