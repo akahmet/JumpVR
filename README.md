@@ -41,8 +41,8 @@ THREE.JumpVR(function(e){},{max: 3, min: -3/*g*/, TimeOut: 500/* ms */, minTime:
 ```
 
 #TO DO
-*add demo</p>
-*I'll try to make more stabile
+1. add demo
+2. 'll try to make more stabile
 
 **Contact**</p>
 you can ask any question</p>
