@@ -16,18 +16,24 @@
 (function() {
 		
 	THREE.JumpVR = function(event,options) {
-		this.options = options || {max: 3, min: -3/*g*/, TimeOut: 500/* ms */, minTime: 10/* ms */ }
+		this.options = this.options || {};
+		this.options.max |= 3/*g*/;
+		this.options.min |= -3/*g*/;
+		this.options.TimeOut |= 500/* ms */;
+		this.options.minTime |= 10/* ms */;
+		
 		this.FeedBack = event;
 		this.count = 0;
 		this.TimeOut = 0;
 		this.Up = false; //
 		this.orient = {x: 90, y:0, z:0 };
+		
 		this.Millis=function() {
 			return new Date().getTime();
 		};
 		
 		this.onOrientation = function (e){
-			console.log(e);
+			//console.log(e);
 			this.orient={x: e.gamma, y: e.alpha, z: e.beta }
 		}.bind(this);
 		
