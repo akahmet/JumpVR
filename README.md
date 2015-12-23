@@ -5,6 +5,11 @@ JumpVR is a module for Three.js to sense jumping thanks to Device Acceleration f
 
 I tested it with just CardBoard.
 ![Google CardBoard](https://developers.google.com/cardboard/images/one-cardboard.png)
+
+# Demo
+1. [Jump Count Demo]
+
+
 # Getting Started
 
 ```html
@@ -56,6 +61,7 @@ ahmetak@gibir.com.tr
 [My Mechatronic Blog]</p>
 [GIBIR]
 
+[Jump Count Demo]: <https://cdn.rawgit.com/akahmet/JumpVR/master/Example/Jump-Count/index.html> 
 [WC3]: <http://www.w3.org/TR/orientation-event/>
 [GIBIR]: <http://gibir.com.tr>
 [My Mechatronic Blog]: <http://blog.mechatronian.com>
