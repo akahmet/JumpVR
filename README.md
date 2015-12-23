@@ -8,7 +8,7 @@ I tested it with just CardBoard.
 
 # Demo
 1. [Jump Count Example] -> [Jump Count Demo]
-
+2. [Jump And Run Example] -> [Jump And Run Demo]
 
 # Getting Started
 
@@ -63,6 +63,10 @@ ahmetak@gibir.com.tr
 
 [Jump Count Example]: <https://github.com/akahmet/JumpVR/tree/master/Example/Jump-Count> 
 [Jump Count Demo]: <https://cdn.rawgit.com/akahmet/JumpVR/master/Example/Jump-Count/index.html> 
+
+[Jump And Run Example]: <https://github.com/akahmet/JumpVR/tree/master/Example/JumpnRUN> 
+[Jump And Run Demo]: <https://cdn.rawgit.com/akahmet/JumpVR/master/Example/JumpnRUN/index.html> 
+
 
 [WC3]: <http://www.w3.org/TR/orientation-event/>
 [GIBIR]: <http://gibir.com.tr>
