@@ -43,7 +43,7 @@ THREE.JumpVR(function(e){},{max: 3, min: -3/*g*/, TimeOut: 500/* ms */, minTime:
 
 **Contact**</p>
 you can ask any question</p>
-Ahmet Ak
+Ahmet AK
 ahmetak@gibir.com.tr
 
 **Warning: if you are not at the World, it cannot work :)**
